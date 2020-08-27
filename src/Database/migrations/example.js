@@ -1,6 +1,6 @@
 export const up = (knex) =>
-  knex.schema.createTable('your table here', (table) => {
+  knex.schema.createTable("table's name", (table) => {
 
   });
 
-export const down = (knex) => knex.schema.dropTable('your table here');
+export const down = (knex) => knex.schema.dropTable("table's name");
