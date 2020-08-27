@@ -4,8 +4,8 @@ module.exports = {
     connection: {
       host: '127.0.0.1',
       user: 'postgres',
-      password: 123,
-      database: 'naveDB',
+      password: 'your password here',
+      database: 'your database here.',
     },
     migrations: {
       directory: './src/Database/migrations',
